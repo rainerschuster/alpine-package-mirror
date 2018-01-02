@@ -1,7 +1,7 @@
 #
 # Run lighttpd to serve apk packages
 #
-FROM    alpine:3.4
+FROM    alpine:3.7
 MAINTAINER  Daniel Nephin <dnephin@gmail.com>
 
 RUN     apk update && apk add lighttpd
